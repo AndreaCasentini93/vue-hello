@@ -20,8 +20,12 @@
     <body>
         <!-- VUE JS -->
         <div id="root">
-            <img :class="imageCSS" :src="image" :alt="altImage">
-            <h1 :class="textCSS">{{ message }}</h1>
+            <div :class="background">
+                <div class="container">
+                    <img @click="button" :class="imageCSS" :src="image" :alt="altImage">
+                    <h1 @click="button" :class="textCSS">{{ message }}</h1>
+                </div>
+            </div>
         </div>
         <!-- /VUE JS -->
 
