@@ -9,7 +9,7 @@ const app = new Vue ({
         altImage: "Image Logo VueJs",
         imageCSS: "image",
         // BACKGROUND
-        background: "background-vuejs"
+        backgroundCSS: "background-vuejs"
     },
     methods: {
         button: function() {
@@ -21,7 +21,7 @@ const app = new Vue ({
                     this.image = "img/logo-react.png";
                     this.altImage = "Image Logo React";
                     // BACKGROUND
-                    this.background = "background-react";
+                    this.backgroundCSS = "background-react";
                     break
                 case "img/logo-react.png":
                     // TESTO
@@ -30,7 +30,7 @@ const app = new Vue ({
                     this.image = "img/logo-angular.png";
                     this.altImage = "Image Logo Angular";
                     // BACKGROUND
-                    this.background = "background-angular";
+                    this.backgroundCSS = "background-angular";
                     break
                 default:
                     // TESTO
@@ -39,7 +39,7 @@ const app = new Vue ({
                     this.image = "img/logo-vuejs.png";
                     this.altImage = "Image Logo VueJs";
                     // BACKGROUND
-                    this.background = "background-vuejs";
+                    this.backgroundCSS = "background-vuejs";
             }
         }
     }
