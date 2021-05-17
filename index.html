@@ -7,7 +7,8 @@
         <!-- SHORTCUT ICON -->
         <link rel="shortcut icon" href="" type="image/x-icon">
         <!-- FONT GOOGLE -->
-
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500;800&display=swap" rel="stylesheet">
         <!-- VUE JS -->
         <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
         <!-- STYLE CSS -->
@@ -17,7 +18,12 @@
     </head>
 
     <body>
-        
+        <!-- VUE JS -->
+        <div id="root">
+            <img :class="imageCSS" :src="image" :alt="altImage">
+            <h1 :class="textCSS">{{ message }}</h1>
+        </div>
+        <!-- /VUE JS -->
 
         <!-- SCRIPT JS -->
         <script src="js/script.js"></script>
