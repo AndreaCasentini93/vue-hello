@@ -11,29 +11,25 @@ body {
     font-family: 'Dosis', sans-serif;
 }
 
-/* VUE JS */
+/* ROOT */
 #root {
     width: 100%;
     height: 100%;
 }
 
-#root .background-vuejs {
+#root [class*="background-"] {
     display: flex;
     width: 100%;
     height: 100%;
+}
+#root .background-vuejs {
     background-image: linear-gradient(#3AB982, #37495F);
 }
 #root .background-react {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    background-image: linear-gradient(#3AB982, #37495F);
+    background-image: linear-gradient(#7DDFFF, #000000);
 }
 #root .background-angular {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    background-image: linear-gradient(#3AB982, #37495F);
+    background-image: linear-gradient(#FFFFFF, #C50628);
 }
 
 #root .container {
@@ -52,22 +48,9 @@ body {
     cursor: pointer;
 }
 
-#root .text-vuejs {
+#root .text {
     color: #FFFFFF;
 }
-#root .image-vuejs {
+#root .image {
     width: 400px;
 }
-#root .text-react {
-    color: #FFFFFF;
-}
-#root .image-react {
-    width: 400px;
-}
-#root .text-angular {
-    color: #FFFFFF;
-}
-#root .image-angular {
-    width: 400px;
-}
-/* /VUE JS */
